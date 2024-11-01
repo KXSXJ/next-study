@@ -8,7 +8,7 @@ import MovieVideos from "../../../../components/movie-videos"
 
 
 interface IParmas{
-    params:{id:string}
+    params:{id:string};
 }
 
 export async function generateMetadata({params:{id}}:IParmas){
